@@ -430,6 +430,9 @@
 	if _G.GodMode and originalrig:FindFirstChild("Neck",true) then wait(game.Players.RespawnTime + 1); originalrig:FindFirstChild("Neck",true).Parent = nil keepinplace = false end
 
 
+wait(0.5)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheExired/Fling/main/FlingScript"))()
 
 	wait(2)
 
